@@ -1,0 +1,13 @@
+{
+  "name": "@domaframework/renovate-config",
+  "version": "1.0.0",
+  "repository": "git@github.com:domaframework/renovate-config.git",
+  "author": "Toshihiro Nakamura <toshihiro.nakamura@gmail.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "env RENOVATE_CONFIG_FILE=default.json renovate-config-validator"
+  },
+  "devDependencies": {
+    "renovate": "23.18.0"
+  }
+}
