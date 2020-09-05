@@ -31,5 +31,8 @@
         "^org.seasar.doma:"
       ]
     }
+  ],
+  "reviewers": [
+    "nakamura-to"
   ]
 }
