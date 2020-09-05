@@ -12,23 +12,22 @@
   ],
   "packageRules": [
     {
+      "groupName": "io.quarkus",
       "packagePatterns": [
         "^io.quarkus:"
-      ],
-      "groupName": "io.quarkus"
+      ]
     },
     {
+      "groupName": "org.junit.jupiter",
       "packagePatterns": [
-        "^org.junit.jupiter:junit-jupiter-api:",
-        "^org.junit.jupiter:junit-jupiter-engine:"
-      ],
-      "groupName": "org.junit.jupiter"
+        "^org.junit.jupiter:"
+      ]
     },
     {
+      "groupName": "org.seasar.doma",
       "packagePatterns": [
         "^org.seasar.doma:"
-      ],
-      "groupName": "org.seasar.doma"
+      ]
     }
   ]
 }
