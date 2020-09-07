@@ -1,4 +1,5 @@
 {
+  "assignAutomerge": true,
   "extends": [
     "config:base",
     ":automergeMinor",
