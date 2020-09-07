@@ -21,6 +21,12 @@
       ]
     },
     {
+      "groupName": "org.jetbrains.kotlin",
+      "packagePatterns": [
+        "^org.jetbrains.kotlin"
+      ]
+    },
+    {
       "groupName": "org.junit.jupiter",
       "packagePatterns": [
         "^org.junit.jupiter:"
