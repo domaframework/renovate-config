@@ -33,9 +33,9 @@
       ]
     },
     {
-      "groupName": "org.seasar.doma",
+      "groupName": "org.seasar.doma:doma",
       "packagePatterns": [
-        "^org.seasar.doma:(core|mock|kotlin|processor)"
+        "^org.seasar.doma:doma-(core|mock|kotlin|processor)"
       ]
     },
     {
