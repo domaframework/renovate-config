@@ -35,9 +35,16 @@
     {
       "groupName": "org.seasar.doma",
       "packagePatterns": [
-        "^org.seasar.doma:"
+        "^org.seasar.doma:(core|mock|kotlin|processor)"
       ]
     }
+    },
+      "groupName": "org.seasar.doma:quarkus",
+      "packagePatterns": [
+        "^org.seasar.doma:quarkus"
+      ]
+    }
+
   ],
   "reviewers": [
     "nakamura-to"
