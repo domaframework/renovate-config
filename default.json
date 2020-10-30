@@ -39,9 +39,9 @@
       ]
     },
     {
-      "groupName": "org.seasar.doma:doma-quarkus",
+      "groupName": "io.quarkiverse.doma:quarkus-doma",
       "packagePatterns": [
-        "^org.seasar.doma:doma-quarkus"
+        "^io.quarkiverse.doma:quarkus-doma"
       ]
     }
   ],
