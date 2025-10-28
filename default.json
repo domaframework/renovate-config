@@ -1,5 +1,4 @@
 {
-  "assignAutomerge": true,
   "extends": ["config:best-practices", ":automergeMinor"],
   "ignorePaths": [
     "docs/**"
@@ -42,8 +41,5 @@
       "matchPackageNames": ["com.google.googlejavaformat:google-java-format"],
       "allowedVersions": "<1.29.0"
     }
-  ],
-  "reviewers": [
-    "nakamura-to"
   ]
 }
