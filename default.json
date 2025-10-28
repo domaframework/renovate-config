@@ -1,12 +1,5 @@
 {
-  "assignAutomerge": true,
-  "extends": [
-    "config:base",
-    ":automergeMinor",
-    ":dependencyDashboard",
-    ":prHourlyLimitNone",
-    ":rebaseStalePrs"
-  ],
+  "extends": ["config:best-practices", ":automergeMinor"],
   "ignorePaths": [
     "docs/**"
   ],
@@ -35,7 +28,7 @@
     {
       "groupName": "org.seasar.doma:doma",
       "packagePatterns": [
-        "^org.seasar.doma:doma-(core|mock|kotlin|processor|slf4j)"
+        "^org.seasar.doma:doma-(core|mock|kotlin|processor|slf4j|template)"
       ]
     },
     {
@@ -43,9 +36,10 @@
       "packagePatterns": [
         "^io.quarkiverse.doma:quarkus-doma"
       ]
+    },
+    {
+      "matchPackageNames": ["com.google.googlejavaformat:google-java-format"],
+      "allowedVersions": "<1.29.0"
     }
-  ],
-  "reviewers": [
-    "nakamura-to"
   ]
 }
