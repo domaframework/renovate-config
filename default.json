@@ -1,12 +1,6 @@
 {
   "assignAutomerge": true,
-  "extends": [
-    "config:base",
-    ":automergeMinor",
-    ":dependencyDashboard",
-    ":prHourlyLimitNone",
-    ":rebaseStalePrs"
-  ],
+  "extends": ["config:best-practices", ":automergeMinor"],
   "ignorePaths": [
     "docs/**"
   ],
