@@ -43,6 +43,10 @@
       "packagePatterns": [
         "^io.quarkiverse.doma:quarkus-doma"
       ]
+    },
+    {
+      "matchPackageNames": ["com.google.googlejavaformat:google-java-format"],
+      "allowedVersions": "<1.29.0"
     }
   ],
   "reviewers": [
